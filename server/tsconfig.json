@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "module": "commonjs",
+        "allowJs": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "target": "es2017",
+        "removeComments": true,
+        "sourceMap": true,
+        "noImplicitAny": false, //allows 'any' types
+        "allowSyntheticDefaultImports": true,
+        "alwaysStrict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "noFallthroughCasesInSwitch": false,
+        "noImplicitReturns": true,
+        "noImplicitThis": false,
+        "strictNullChecks": false,
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "other",
+        "build",
+        "rls"
+    ]
+}
